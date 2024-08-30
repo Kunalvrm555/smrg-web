@@ -3,6 +3,7 @@
   journal: "Journal of Materials Chemistry A"
   volume: "8"
   number: "1"
+  month: 1
   pages: "27-54"
   year: 2020
   url: "https://doi.org/10.1039/C9TA09582G"
@@ -12,6 +13,7 @@
   journal: "Solar Energy"
   volume: "197"
   pages: "50-57"
+  month: 2
   year: 2020
   url: "https://doi.org/10.1016/j.solener.2019.12.010"
 
@@ -20,6 +22,7 @@
   journal: "Journal of Materials Chemistry A"
   volume: "7"
   number: "14"
+  month: 4
   pages: "8218-8225"
   year: 2019
   url: "https://doi.org/10.1039/C9TA01447A"
@@ -29,6 +32,7 @@
   journal: "ACS Omega"
   volume: "6"
   number: "2"
+  month: 1
   pages: "1030-1042"
   year: 2021
   url: "https://doi.org/10.1021/acsomega.0c03568"
@@ -38,6 +42,7 @@
   journal: "Journal of Environmental Chemical Engineering"
   volume: "4"
   number: "1"
+  month: 3
   pages: "1017-1028"
   year: 2016
   url: "https://doi.org/10.1016/j.jece.2015.12.005"
@@ -47,6 +52,7 @@
   journal: "The Journal of Physical Chemistry C"
   volume: "124"
   number: "6"
+  month: 2
   pages: "3496-3502"
   year: 2020
   url: "https://doi.org/10.1021/acs.jpcc.9b11758"
@@ -56,6 +62,7 @@
   journal: "Physical Chemistry Chemical Physics"
   volume: "22"
   number: "20"
+  month: 5
   pages: "11467-11473"
   year: 2020
   url: "https://doi.org/10.1039/D0CP01060K"
@@ -65,6 +72,7 @@
   journal: "European Journal of Inorganic Chemistry"
   volume: "2021"
   number: "13"
+  month: 9
   pages: "1201-1212"
   year: 2021
   url: "https://doi.org/10.1002/ejic.202001089"
@@ -75,6 +83,7 @@
   volume: "145"
   pages: "111047"
   year: 2021
+  month: 4
   url: "https://doi.org/10.1016/j.rser.2021.111047"
 
 - author: "D Prochowicz, MM Tavakoli, AQ Alanazi, S Trivedi, H Tavakoli Dastjerdi"
@@ -82,6 +91,7 @@
   journal: "ACS Omega"
   volume: "4"
   number: "16"
+  month: 9
   pages: "16840-16846"
   year: 2019
   url: "https://doi.org/10.1021/acsomega.9b01847"
