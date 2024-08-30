@@ -2,8 +2,33 @@
 layout: default
 title: Publications
 ---
-<p>
-    <a href="{{ site.base }}/bib/pubs.bib">Download BibTeX.</a>
-</p>
-
-{% include pubs.html %}
+<div class="publications" style="width: 100%;">
+  <table style="width: 100%; border-collapse: collapse;">
+    {% assign prev_year = nil %}
+    {% for entry in site.data.pubs %}
+      {% if entry.year != prev_year %}
+        <tr><td colspan="2" style="padding-top: 20px;"><h2 style="font-size: 24px; margin-bottom: 5px;">{{ entry.year }}</h2></td></tr>
+        {% assign prev_year = entry.year %}
+      {% endif %}
+      <tr>
+        <td style="padding: 8px; white-space: nowrap;">{{ entry.month | date: "%B" }}</td>
+        <td style="padding: 8px;">
+          <div class="publication">
+            <span class="publication-title" style="font-size: 16px;">
+              {% if entry.url %}
+                <a href="{{ entry.url }}" style="text-decoration: none; color: #0056b3;">{{ entry.title }}</a>
+              {% else %}
+                {{ entry.title }}
+              {% endif %}
+            </span><br>
+            <span class="authors" style="font-size: 14px; color: #666;">{{ entry.author }}</span><br>
+            <span class="details" style="font-size: 14px; color: #999;">{{ entry.journal }}</span>
+            {% if entry.note %}
+              <br><span class="note" style="font-size: 14px; color: #999;">{{ entry.note }}</span>
+            {% endif %}
+          </div>
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>
