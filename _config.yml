@@ -17,13 +17,11 @@ roles:
     name: Staff
   - key: postdoc
     name: Researchers
-  - key: grad
-    name: Graduate Students
   - key: ugrad
     name: Undergraduate Students
-  - key: ugrad-alum
+  - key: ugrad-past
     name: Past Undergraduate Students
-  - key: collab
+  - key: collaborator
     name: Collaborators
   - key: alum
     name: Alumni
